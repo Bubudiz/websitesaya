@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jdl h1{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 12vw;
+    color: pink;
+    text-shadow: 0 0 4px #ffffff;
+    font-family: cursive;
+}
+body{
+    background-color: black;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border-radius: 10px;
+    border: 1px solid #F2BED1;
+    margin-left: 45vw;
+    margin-top: 2vw;
+    padding: 10px 20px;
+    background-color: pink;
+  }
+  
+  button > svg {
+    margin-left: 5px;
+    transition: all 0.4s ease-in;
+  }
+  
+  button:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(6px);
+  }
+  
+  button:hover {
+    box-shadow: 0px 0px 20px #ffabf8;
+    transform: translateY(-5px);
+    background-color: rgb(23, 23, 23);
+    color: pink;
+  }
+a{
+    text-decoration: none;
+    color: rgb(58, 58, 58); 
+  }
+  span a:hover{
+    text-decoration: none;
+    color: pink;
+  }
+
+audio{
+    margin-left: 45vw;
+    width: 0.1px;
+    height: 0.1px;
+}
+
+h2{
+    color: pink;
+    text-align: center;
+    font-size: 2vw;
+    font-family: cursive;
+}
+img{
+    margin-left: 38vw;
+    width: 23vw;
+}
+.jdl1 h1{
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 7vw;
+    color: pink;
+    text-shadow: 0 0 4px #ffffff;
+    font-family: cursive;
+}
+
+@media only screen and (min-height: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .jdl h1{
+        font-size: 8vw;
+        text-align: center;
+        margin-top: 12vw;
+        color: pink;
+        text-shadow: 0 0 15px #ffffff;
+        font-family: cursive;
+    }
+    body{
+        background-color: black;
+    }
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        border-radius: 10px;
+        border: 1px solid #F2BED1;
+        margin-left: 45vw;
+        margin-top: 2vw;
+        padding: 10px 20px;
+        background-color: pink;
+      }
+      
+      button > svg {
+        margin-left: 5px;
+        transition: all 0.4s ease-in;
+      }
+      
+      button:hover > svg {
+        font-size: 1.2em;
+        transform: translateX(6px);
+      }
+      
+      button:hover {
+        box-shadow: 0px 0px 20px #ffabf8;
+        transform: translateY(-5px);
+        background-color: rgb(23, 23, 23);
+        color: pink;
+      }
+    a{
+        text-decoration: none;
+        color: rgb(58, 58, 58); 
+      }
+      span{
+        font-size: 2vw;
+      }
+      span a:hover{
+        text-decoration: none;
+        color: pink;
+      }
+    
+    audio{
+        margin-left: 45vw;
+        width: 0.1px;
+        height: 0.1px;
+    }
+    
+    h2{
+        color: pink;
+        text-align: center;
+        font-size: 2vw;
+        font-family: cursive;
+    }
+    img{
+        margin-left: 38vw;
+        width: 23vw;
+        margin-top: -3vw;
+    }
+    .jdl1 h1{
+        font-size: 4vw;
+        text-align: center;
+        margin-top: 7vw;
+        color: pink;
+        text-shadow: 0 0 4px #ffffff;
+        font-family: cursive;
+    }
+    .tiker{
+      margin-left: -25vw;
+      margin-bottom: -18vw;
+    }
+    .tiker img{
+      width: 15vw;
+    }
+    .tik img{
+      width: 23vw;
+    }
+    .tik{
+      margin-left: 30vw;
+      margin-top: -23vw;
+    }
+    
+}
